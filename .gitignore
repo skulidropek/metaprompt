@@ -1,3 +1,59 @@
+# Директории, созданные SDK
+bin/
+obj/
+out/
+
+# Пользовательские конфигурации IDE
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Временные файлы
+*.tmp
+*.log
+*.svclog
+*.pdb
+*.cache
+*.ilk
+*.obj
+*.dmp
+
+# Секретные файлы и ключи
+*.key
+*.snk
+*.pfx
+*.cer
+
+# Конфигурационные файлы, которые не нужно добавлять
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# Пакеты NuGet
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+
+# Visual Studio Code
+.vscode/
+.history/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Docker
+docker-compose.override.yml
+
+# Global
+.vs/
+_ReSharper.*
+**/*.mdb
+*.opendb
+TestResults/
+
+# Секреты среды и Python
 .venv/
 __pycache__/
 *.pyc
